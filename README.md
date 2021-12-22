@@ -28,3 +28,14 @@ c) Fazer a cópia da URL. Ela tem a extensão .git
 8- Com o Git aberto na pasta escolhida, executamos o comando "git clone **'link copiado no passo 6'** ".
 
 ### Pronto, agora temos uma cópia do nosso Repositório no computador local. ###
+
+
+Se fizermos alguma alteração ou edição no computador local, será necessário commitar os arquivos alterados/criados ao servidor do GitHub. Para isso, procederemos da seguinte forma:
+
+9- Para enviar arquivos novos criados ou alterados na máquina local para o remoto, usar o comando "git add ." ou "git add -a"
+
+10- Após, executar o comando "git commit -m "comentário pertinente da alteração ou inclusão feita" "
+
+11- Usar o comando "git push origin main" para publicar no servidor.
+
+### Se você está lendo este artigo, nosso processo de criação, edição e sincronização foi bem sucedido. ###
